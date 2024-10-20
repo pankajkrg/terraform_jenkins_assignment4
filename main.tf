@@ -1,9 +1,9 @@
 provider "aws" {
-  region = "us-east-2"
+  region = "ap-south-1"
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0374badf0de443688"
+  ami           = "ami-04a37924ffe27da53"
   instance_type = "t2.micro"
 
   tags ={
