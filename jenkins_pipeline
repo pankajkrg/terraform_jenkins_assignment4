@@ -7,6 +7,6 @@ resource "aws_instance" "jenkins" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "jenkins_pipelins"
+    Name = "jenkins_pipelines"
   }
 }
