@@ -6,7 +6,7 @@ resource "aws_instance" "example" {
   ami           = "ami-0374badf0de443688"
   instance_type = "t2.micro"
 
-  tags = {
+  tags ={
     Name = "jenkins_pipelines"
   }
 }
